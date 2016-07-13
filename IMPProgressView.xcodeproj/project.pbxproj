@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167BAAA01D365F3B00411545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAA9F1D365F3B00411545 /* main.m */; };
+		167BAAA31D365F3B00411545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAA21D365F3B00411545 /* AppDelegate.m */; };
+		167BAAA61D365F3B00411545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAA51D365F3B00411545 /* ViewController.m */; };
+		167BAAA91D365F3B00411545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167BAAA71D365F3B00411545 /* Main.storyboard */; };
+		167BAAAB1D365F3B00411545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167BAAAA1D365F3B00411545 /* Assets.xcassets */; };
+		167BAAAE1D365F3B00411545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167BAAAC1D365F3B00411545 /* LaunchScreen.storyboard */; };
+		167BAAB91D365F3B00411545 /* IMPProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAB81D365F3B00411545 /* IMPProgressViewTests.m */; };
+		167BAAC41D365F3B00411545 /* IMPProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAC31D365F3B00411545 /* IMPProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167BAAB51D365F3B00411545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167BAA931D365F3900411545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167BAA9A1D365F3900411545;
+			remoteInfo = IMPProgressView;
+		};
+		167BAAC01D365F3B00411545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167BAA931D365F3900411545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167BAA9A1D365F3900411545;
+			remoteInfo = IMPProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167BAA9B1D365F3900411545 /* IMPProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMPProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167BAA9F1D365F3B00411545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		167BAAA11D365F3B00411545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		167BAAA21D365F3B00411545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		167BAAA41D365F3B00411545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		167BAAA51D365F3B00411545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		167BAAA81D365F3B00411545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		167BAAAA1D365F3B00411545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167BAAAD1D365F3B00411545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167BAAAF1D365F3B00411545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167BAAB41D365F3B00411545 /* IMPProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167BAAB81D365F3B00411545 /* IMPProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPProgressViewTests.m; sourceTree = "<group>"; };
+		167BAABA1D365F3B00411545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167BAABF1D365F3B00411545 /* IMPProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167BAAC31D365F3B00411545 /* IMPProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPProgressViewUITests.m; sourceTree = "<group>"; };
+		167BAAC51D365F3B00411545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167BAA981D365F3900411545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAAB11D365F3B00411545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAABC1D365F3B00411545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167BAA921D365F3800411545 = {
+			isa = PBXGroup;
+			children = (
+				167BAA9D1D365F3B00411545 /* IMPProgressView */,
+				167BAAB71D365F3B00411545 /* IMPProgressViewTests */,
+				167BAAC21D365F3B00411545 /* IMPProgressViewUITests */,
+				167BAA9C1D365F3900411545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167BAA9C1D365F3900411545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167BAA9B1D365F3900411545 /* IMPProgressView.app */,
+				167BAAB41D365F3B00411545 /* IMPProgressViewTests.xctest */,
+				167BAABF1D365F3B00411545 /* IMPProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167BAA9D1D365F3B00411545 /* IMPProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				167BAAA11D365F3B00411545 /* AppDelegate.h */,
+				167BAAA21D365F3B00411545 /* AppDelegate.m */,
+				167BAAA41D365F3B00411545 /* ViewController.h */,
+				167BAAA51D365F3B00411545 /* ViewController.m */,
+				167BAAA71D365F3B00411545 /* Main.storyboard */,
+				167BAAAA1D365F3B00411545 /* Assets.xcassets */,
+				167BAAAC1D365F3B00411545 /* LaunchScreen.storyboard */,
+				167BAAAF1D365F3B00411545 /* Info.plist */,
+				167BAA9E1D365F3B00411545 /* Supporting Files */,
+			);
+			path = IMPProgressView;
+			sourceTree = "<group>";
+		};
+		167BAA9E1D365F3B00411545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				167BAA9F1D365F3B00411545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		167BAAB71D365F3B00411545 /* IMPProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				167BAAB81D365F3B00411545 /* IMPProgressViewTests.m */,
+				167BAABA1D365F3B00411545 /* Info.plist */,
+			);
+			path = IMPProgressViewTests;
+			sourceTree = "<group>";
+		};
+		167BAAC21D365F3B00411545 /* IMPProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167BAAC31D365F3B00411545 /* IMPProgressViewUITests.m */,
+				167BAAC51D365F3B00411545 /* Info.plist */,
+			);
+			path = IMPProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167BAA9A1D365F3900411545 /* IMPProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167BAAC81D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressView" */;
+			buildPhases = (
+				167BAA971D365F3900411545 /* Sources */,
+				167BAA981D365F3900411545 /* Frameworks */,
+				167BAA991D365F3900411545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMPProgressView;
+			productName = IMPProgressView;
+			productReference = 167BAA9B1D365F3900411545 /* IMPProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167BAAB31D365F3B00411545 /* IMPProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167BAACB1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewTests" */;
+			buildPhases = (
+				167BAAB01D365F3B00411545 /* Sources */,
+				167BAAB11D365F3B00411545 /* Frameworks */,
+				167BAAB21D365F3B00411545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167BAAB61D365F3B00411545 /* PBXTargetDependency */,
+			);
+			name = IMPProgressViewTests;
+			productName = IMPProgressViewTests;
+			productReference = 167BAAB41D365F3B00411545 /* IMPProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167BAABE1D365F3B00411545 /* IMPProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167BAACE1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewUITests" */;
+			buildPhases = (
+				167BAABB1D365F3B00411545 /* Sources */,
+				167BAABC1D365F3B00411545 /* Frameworks */,
+				167BAABD1D365F3B00411545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167BAAC11D365F3B00411545 /* PBXTargetDependency */,
+			);
+			name = IMPProgressViewUITests;
+			productName = IMPProgressViewUITests;
+			productReference = 167BAABF1D365F3B00411545 /* IMPProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167BAA931D365F3900411545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Impiger Technologies";
+				TargetAttributes = {
+					167BAA9A1D365F3900411545 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					167BAAB31D365F3B00411545 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 167BAA9A1D365F3900411545;
+					};
+					167BAABE1D365F3B00411545 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 167BAA9A1D365F3900411545;
+					};
+				};
+			};
+			buildConfigurationList = 167BAA961D365F3900411545 /* Build configuration list for PBXProject "IMPProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167BAA921D365F3800411545;
+			productRefGroup = 167BAA9C1D365F3900411545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167BAA9A1D365F3900411545 /* IMPProgressView */,
+				167BAAB31D365F3B00411545 /* IMPProgressViewTests */,
+				167BAABE1D365F3B00411545 /* IMPProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167BAA991D365F3900411545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167BAAAE1D365F3B00411545 /* LaunchScreen.storyboard in Resources */,
+				167BAAAB1D365F3B00411545 /* Assets.xcassets in Resources */,
+				167BAAA91D365F3B00411545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAAB21D365F3B00411545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAABD1D365F3B00411545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167BAA971D365F3900411545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167BAAA61D365F3B00411545 /* ViewController.m in Sources */,
+				167BAAA31D365F3B00411545 /* AppDelegate.m in Sources */,
+				167BAAA01D365F3B00411545 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAAB01D365F3B00411545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167BAAB91D365F3B00411545 /* IMPProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167BAABB1D365F3B00411545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167BAAC41D365F3B00411545 /* IMPProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167BAAB61D365F3B00411545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167BAA9A1D365F3900411545 /* IMPProgressView */;
+			targetProxy = 167BAAB51D365F3B00411545 /* PBXContainerItemProxy */;
+		};
+		167BAAC11D365F3B00411545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167BAA9A1D365F3900411545 /* IMPProgressView */;
+			targetProxy = 167BAAC01D365F3B00411545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167BAAA71D365F3B00411545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167BAAA81D365F3B00411545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		167BAAAC1D365F3B00411545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167BAAAD1D365F3B00411545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167BAAC61D365F3B00411545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		167BAAC71D365F3B00411545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167BAAC91D365F3B00411545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMPProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		167BAACA1D365F3B00411545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMPProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		167BAACC1D365F3B00411545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMPProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPProgressView.app/IMPProgressView";
+			};
+			name = Debug;
+		};
+		167BAACD1D365F3B00411545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMPProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPProgressView.app/IMPProgressView";
+			};
+			name = Release;
+		};
+		167BAACF1D365F3B00411545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMPProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMPProgressView;
+			};
+			name = Debug;
+		};
+		167BAAD01D365F3B00411545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMPProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMPProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167BAA961D365F3900411545 /* Build configuration list for PBXProject "IMPProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167BAAC61D365F3B00411545 /* Debug */,
+				167BAAC71D365F3B00411545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167BAAC81D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167BAAC91D365F3B00411545 /* Debug */,
+				167BAACA1D365F3B00411545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167BAACB1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167BAACC1D365F3B00411545 /* Debug */,
+				167BAACD1D365F3B00411545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167BAACE1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167BAACF1D365F3B00411545 /* Debug */,
+				167BAAD01D365F3B00411545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167BAA931D365F3900411545 /* Project object */;
+}
