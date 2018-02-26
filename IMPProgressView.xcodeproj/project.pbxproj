@@ -15,6 +15,9 @@
 		167BAAAE1D365F3B00411545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167BAAAC1D365F3B00411545 /* LaunchScreen.storyboard */; };
 		167BAAB91D365F3B00411545 /* IMPProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAB81D365F3B00411545 /* IMPProgressViewTests.m */; };
 		167BAAC41D365F3B00411545 /* IMPProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAC31D365F3B00411545 /* IMPProgressViewUITests.m */; };
+		167BAAD41D365F8E00411545 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167BAAD31D365F8E00411545 /* ProgressView.xib */; };
+		167BAAD71D3661D600411545 /* IMPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BAAD61D3661D600411545 /* IMPProgressView.m */; };
+		16CC2FF61D37571D0080C041 /* IMPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CC2FF51D37571D0080C041 /* IMPView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		167BAABF1D365F3B00411545 /* IMPProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		167BAAC31D365F3B00411545 /* IMPProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPProgressViewUITests.m; sourceTree = "<group>"; };
 		167BAAC51D365F3B00411545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167BAAD31D365F8E00411545 /* ProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressView.xib; sourceTree = "<group>"; };
+		167BAAD51D3661D600411545 /* IMPProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPProgressView.h; sourceTree = "<group>"; };
+		167BAAD61D3661D600411545 /* IMPProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPProgressView.m; sourceTree = "<group>"; };
+		16CC2FF41D37571D0080C041 /* IMPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPView.h; sourceTree = "<group>"; };
+		16CC2FF51D37571D0080C041 /* IMPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,11 @@
 				167BAAA41D365F3B00411545 /* ViewController.h */,
 				167BAAA51D365F3B00411545 /* ViewController.m */,
 				167BAAA71D365F3B00411545 /* Main.storyboard */,
+				167BAAD51D3661D600411545 /* IMPProgressView.h */,
+				167BAAD61D3661D600411545 /* IMPProgressView.m */,
+				16CC2FF41D37571D0080C041 /* IMPView.h */,
+				16CC2FF51D37571D0080C041 /* IMPView.m */,
+				167BAAD31D365F8E00411545 /* ProgressView.xib */,
 				167BAAAA1D365F3B00411545 /* Assets.xcassets */,
 				167BAAAC1D365F3B00411545 /* LaunchScreen.storyboard */,
 				167BAAAF1D365F3B00411545 /* Info.plist */,
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					167BAA9A1D365F3900411545 = {
 						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
 					};
 					167BAAB31D365F3B00411545 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167BAAAE1D365F3B00411545 /* LaunchScreen.storyboard in Resources */,
+				167BAAD41D365F8E00411545 /* ProgressView.xib in Resources */,
 				167BAAAB1D365F3B00411545 /* Assets.xcassets in Resources */,
 				167BAAA91D365F3B00411545 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +287,8 @@
 			files = (
 				167BAAA61D365F3B00411545 /* ViewController.m in Sources */,
 				167BAAA31D365F3B00411545 /* AppDelegate.m in Sources */,
+				16CC2FF61D37571D0080C041 /* IMPView.m in Sources */,
+				167BAAD71D3661D600411545 /* IMPProgressView.m in Sources */,
 				167BAAA01D365F3B00411545 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IMPProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMPProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IMPProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ImpigerTech.IMPProgressView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMPProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -496,6 +519,7 @@
 				167BAACA1D365F3B00411545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		167BAACB1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +528,7 @@
 				167BAACD1D365F3B00411545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		167BAACE1D365F3B00411545 /* Build configuration list for PBXNativeTarget "IMPProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +537,7 @@
 				167BAAD01D365F3B00411545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
